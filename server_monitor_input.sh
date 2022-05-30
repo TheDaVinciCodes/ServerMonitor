@@ -7,12 +7,6 @@
 # Last Update  :   10.02.2022                           	#
 # Author:      :   @TheDaVinciCodes         			#
 #################################################################
- 
-
-# This Bash-Script monitors the server response by getting
-# the HTTP Code through a cURL library. The Output Response will be 
-# displayed both in console and in an appender file named monitor_log.txt.
-
 
 regex='(https?|ftp|file)://[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]'
 

@@ -7,14 +7,6 @@
 # Last Update  :   10.02.2022                           	#
 # Author:      :   @TheDaVinciCodes         			#
 #################################################################
- 
-
-# This Bash-Script monitors the server response by getting
-# the HTTP Code through a cURL library. The Output Response will be 
-# displayed both in console and in an appender file named monitor_log.txt.
-
-# To run give ./server_monitor_v2.sh <url> <seconds to sleep>
-# exemple: ./server_monitor_v2.sh https://www.google.com/ 2
 
 get_response=$(curl -k -s -o /dev/null -w "%{http_code}" --location --request GET "$1")
 
