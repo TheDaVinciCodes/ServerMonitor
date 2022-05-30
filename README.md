@@ -23,10 +23,17 @@ Run on CMD
   ./server_monitor_args.sh <url> <seconds to sleep>
 ```
 
-exemple: 
+Exemple: 
 
 ```bash
   ./server_monitor_v2.sh https://www.google.com/ 2
+```
+
+Output:
+
+```bash
+[Mon Jan 01 00:00:00 2022] Server online  | Status: 200
+[Mon Jan 01 00:00:02 2022] Server offline | Status: 000
 ```
 
 ## Author
