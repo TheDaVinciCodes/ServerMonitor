@@ -1,11 +1,11 @@
 #!/usr/bin/bash
 
 #################################################################
-# Script Name  :   Server Monitor               				#
-# Description  :   REST API monitor of server availability		#
-#                                                       		#
-# Last Update  :   10.02.2022                           		#
-# Author:      :   @TheDaVinciCodes         					#
+# Script Name  :   Server Monitor               		#
+# Description  :   REST API monitor of server availability	#
+#                                                       	#
+# Last Update  :   10.02.2022                           	#
+# Author:      :   @TheDaVinciCodes         			#
 #################################################################
  
 
